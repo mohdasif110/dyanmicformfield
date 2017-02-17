@@ -18,7 +18,6 @@
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-
 <script>
 
 $(document).ready(function() {
@@ -52,7 +51,7 @@ $(document).ready(function() {
 
 		<input type="hidden" name="sb" value="1">
 
-				<ul class="list-group">
+			<ul class="list-group">
 										 
 						 <?php foreach($items as $spec_attr_key) { ?>
 						  <li class="list-group-item">
@@ -68,8 +67,5 @@ $(document).ready(function() {
 			<div class="well" >
 				<p  id="debug"></p>
 			</div>
-		
 		</form>
-
 	</div>
-
