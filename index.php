@@ -23,8 +23,8 @@
 $(document).ready(function() {
 		
 		$( '#Save' ).click(function() {
-			
-			var items 			=	{};
+		
+			var items 			=	[];
 			
 			$( ".myinputbox" ).each(function( index ) {
 				
